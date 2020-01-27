@@ -1,0 +1,39 @@
+# assumes steps in ubuntu_server_setup cheatsheet have been completed
+# Steps: 1) install nginx; 2) configure nginx; 3) configure firewall to allow port 80 and 443 incoming; 4) test it
+
+# 1) Install nginx
+# Install nginx
+$ sudo apt install nginx
+
+# 2) Configure nginx
+$ sudo mkdir /srv/www /srv/www/domainname
+$ sudo vim /etc/nginx/sites-available/default
+
+# In vim, update line with 'root' to '/srv/www/domainname'
+
+# restart nginx
+$ sudo service nginx restart
+
+# change dir ownership so you can write to it
+$ sudo chown -R user:dwroth /srv/www
+
+# 3) Configure firewall to allow port 80 and 443 incoming
+$ sudo ufw allow 80
+$ sudo ufw allow 443
+
+# to only allow 80 or 443 access from a specific ip (e.g. your dev machine)
+$ sudo ufw allow from myip to any port 80
+$ sudo ufw allow from myip to any port 443
+
+# to see all firewall rules in play
+$ sudo ufw status numbered
+
+# to delete a rule
+$ sudo ufw delete 'pick number from list generated above'
+
+# 4) Test it
+# copy a valid index.htm file to /srv/www/domainname
+# point your browser to your server's ip
+
+# Extra Credit -- to reset all ufw rules and start from scratch
+$ sudo ufw reset
