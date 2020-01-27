@@ -1,8 +1,8 @@
 # README
 
-# My cheatsheets for setting up an ubuntu server on DigitalOcean
+## My cheatsheets for setting up an ubuntu server on DigitalOcean
 
-## Initial VM Setup
+### [Initialize a new Ubuntu VM](https://gihub.com/dw-roth/cheatsheets/master/ubuntu_vm_initialization.md)
 
 ## Set up server to be web server with nginx
 
