@@ -1,4 +1,4 @@
-# assumes steps in ubuntu_server_setup cheatsheet have been completed
+# assumes steps in ubuntu_vm_initialization cheatsheet have been completed
 # Steps: 1) install nginx; 2) configure nginx; 3) configure firewall to allow port 80 and 443 incoming; 4) test it
 
 # 1) Install nginx
