@@ -1,7 +1,8 @@
 ## Setting up a local Ubuntu machine
 (assumes  you have already "sudo apt install curl")
->curl -o- https://raw.githubusercontent.com/dw-roth/cheatsheets/master/ubuntu_new_machine_setup.sh | bash
-
+>curl https://raw.githubusercontent.com/dw-roth/cheatsheets/master/ubuntu_new_machine_setup.sh -o setup
+>chmod u+x setup
+>./setup
 
 ## Setting Up DigitalOcean Ubuntu VM Setup notes
 
