@@ -1,4 +1,9 @@
-## My DigitalOcean Ubuntu VM Setup notes
+## Setting up a local Ubuntu machine
+(assumes  you have already "sudo apt install curl")
+>curl -o- https://raw.githubusercontent.com/dw-roth/cheatsheets/master/ubuntu_new_machine_setup.sh | bash
+
+
+## Setting Up DigitalOcean Ubuntu VM Setup notes
 
 ### [Initialize a new Ubuntu VM](https://github.com/dw-roth/cheatsheets/blob/master/ubuntu_vm_initialization)
 
