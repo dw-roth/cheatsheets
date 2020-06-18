@@ -1,4 +1,5 @@
 ## Setting up a local Ubuntu machine
+(assumes  you have already "sudo apt install curl")
 >curl -o- https://raw.githubusercontent.com/dw-roth/cheatsheets/master/ubuntu_new_machine_setup.sh | bash
 
 
