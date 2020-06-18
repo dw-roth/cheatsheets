@@ -1,10 +1,11 @@
 #!/bin/bash
 
+echo -e "\e[92mDownloading .bash_aliases\e[0m"
+curl https://raw.githubusercontent.com/dw-roth/dotfiles/master/.bash_aliases -o .bash_aliases
+source .bash_aliases
+
 echo -e "\e[92mInstalling git...\e[0m"
 sudo apt install git
-
-echo -e "\e[92m>Install curl...\e[0m"
-sudo apt install curl
 
 echo -e "\e[92m>Installing vim...\e[0m"
 sudo apt install neovim
