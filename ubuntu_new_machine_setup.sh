@@ -22,28 +22,28 @@ sudo ln -s ~/.vim/.vimrc ~/.vimrc
 
 cd ~/.vim/bundle
 
-echo -e "[92m>install EditorConfig-vim...\e[0m"
+echo -e "\e[92m>install EditorConfig-vim...\e[0m"
 git clone https://github.com/editorconfig/editorconfig-vim.git
 
-echo -e "[92m>install vim-repeat...\e[0m"
+echo -e "\e[92m>install vim-repeat...\e[0m"
 git clone https://github.com/tpope/vim-repeat.git
 
-echo -e "[92m>install vim-surround...\e[0m"
+echo -e "\e[92m>install vim-surround...\e[0m"
 git clone https://github.com/tpope/vim-surround.git
 
-echo -e "[92m>install vim-commentary...\e[0m"
+echo -e "\e[92m>install vim-commentary...\e[0m"
 git clone https://github.com/tpope/vim-commentary.git
 
-echo -e "[92m>install vim-emmett...\e[0m"
+echo -e "\e[92m>install vim-emmett...\e[0m"
 git clone https://github.com/mattn/emmet-vim.git 
 
-echo -e "[92m>install vim-JavaScript...\e[0m"
+echo -e "\e[92m>install vim-JavaScript...\e[0m"
 git clone https://github.com/pangloss/vim-javascript.git
 
-echo -e "[92m>install vim-typescript...\e[0m"
+echo -e "\e[92m>install vim-typescript...\e[0m"
 git clone https://github.com/leafgarland/typescript-vim.git
 
-echo -e "[92m>install haskell-vim...\e[0m"
+echo -e "\e[92m>install haskell-vim...\e[0m"
 git clone https://github.com/neovimhaskell/haskell-vim.git
 
 echo -e "\e[92m>Install node...\e[0m"
