@@ -46,6 +46,9 @@ git clone https://github.com/leafgarland/typescript-vim.git
 echo -e "\e[92m>install haskell-vim...\e[0m"
 git clone https://github.com/neovimhaskell/haskell-vim.git
 
+echo -e "\e[92m>Install Haskell Platform...\e[0m"
+sudo apt install haskell-platform
+
 echo -e "\e[92m>Install node...\e[0m"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
