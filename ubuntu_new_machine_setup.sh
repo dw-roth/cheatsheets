@@ -47,6 +47,10 @@ echo -e "\e[92m>install haskell-vim...\e[0m"
 git clone https://github.com/neovimhaskell/haskell-vim.git
 
 echo -e "\e[92m>Install Haskell Platform...\e[0m"
+echo -e "\e[92m>If you see error, upgrade Ubuntu...\e[0m"
+echo "sudo apt update"
+echo "sudo apt upgrade"
+
 sudo apt install haskell-platform
 
 echo -e "\e[92m>Install node...\e[0m"
