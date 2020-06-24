@@ -8,7 +8,7 @@ echo -e "\e[92mInstalling git...\e[0m"
 sudo apt install git
 
 echo -e "\e[92m>Installing vim...\e[0m"
-sudo apt install neovim
+sudo apt install vim-gtk
 
 echo -e "\e[92m>Create dirs ~/.vim/{autoload,bundle} and download pathogen.vim...\e[0m"
 mkdir -p ~/.vim/{autoload,bundle} && \
